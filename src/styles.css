@@ -1,8 +1,25 @@
-/* add css styles here (optional) */
 
-.test {
-  display: inline-block;
-  margin: 2em auto;
-  border: 2px solid #000;
-  font-size: 2em;
+.SelectContainer{
+  grid-row: 2;
+  height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.SelectOption{
+  padding: 10px;
+  width: 200px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  overflow-x: hidden;
+  text-overflow:ellipsis;
+}
+
+.Selected{
+  background-color: rgb(212, 214, 218);
+  font-weight: 450;
+}
+
+.SelectOption:hover{
+  background-color:rgb(229, 232, 235);
 }
